@@ -20,7 +20,7 @@ body {
 } 
 
 .avatar {
-    border-radius: 50px;
+    border-radius: 75px;
     box-shadow: 0 0 10px #74c7ec; /*Catpuccin Mocha: Sapphire*/
 }
 
@@ -37,6 +37,7 @@ body {
 
 h2 {
     color: #cdd6f4; /*Catpuccin Mocha: Text*/
+    font-size: 1.75rem;
 }
 
 a {
@@ -81,8 +82,8 @@ footer {
 .link-button {
     min-width: 180px;
     text-align: center;
-
 }
+
 #LanguageSwitcher {
     appearance: none;
     background-color: transparent;
