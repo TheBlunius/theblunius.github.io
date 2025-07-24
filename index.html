@@ -1,42 +1,48 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>TheBlunius</title>
     <link rel="stylesheet" href="style.css">
-<!--Dodanie font-awesome do projektu-->
+<!--Add's font-awesome to the website-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     
 </head>
 <body>
+
+    <header>
+        <select id="LanguageSwitcher">
+            <option value="en">English</option>
+            <option value="pl">Polski</option>
+        </select>
+    </header>
 
     <div class="container">
         <img class="avatar" src="zasoby/logo.png" alt="logo"> <br>
         <h2>TheBlunius</h2>
     
-            <a target="_blank" href="https://youtube.com/@theblunius">
+            <a class="link-button" target="_blank" href="https://youtube.com/@theblunius">
                 <i class="fa-brands fa-youtube youtube-icon"></i>
-                Mój kanał na YT
+                <span data-i18n="yt-channel">Mój kanał na YT</span>
             </a>
     
-            <a target="_blank" href="https://github.com/TheBlunius">
+            <a class="link-button" target="_blank" href="https://github.com/TheBlunius">
                 <i class="fa-brands fa-github"></i>
-                Mój profil Github
+                <span data-i18n="github-profile">Mój profil Github</span>
             </a>
 
-            <a target="_blank" href="https://bsky.app/profile/theblunius.bsky.social">
+            <a class="link-button" target="_blank" href="https://bsky.app/profile/theblunius.bsky.social">
                 <i class="fa-brands fa-bluesky"></i>
-                Mój profil Bluesky
+                <span data-i18n="bluesky-profile">Mój profil Bluesky</span>
             </a>
 
-            <a target="_blank" href="https://twitter.com/TheBlunius">
+            <a class="link-button" target="_blank" href="https://twitter.com/TheBlunius">
                 <i class="fa-brands fa-twitter"></i>
-                Mój profil Twitter
+                <span data-i18n="twitter-profile">Mój profil Twitter</span>
             </a>
 
-            <a target="_blank" href="https://crowdin.com/profile/theblunius">
+            <a class="link-button" target="_blank" href="https://crowdin.com/profile/theblunius">
                 <svg class="crowdin-icon" width="248" height="248" viewBox="0 0 248 248" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M163.024 177.312C157.024 177.312 151.667 175.514 147.239 171.995C141.954 167.851 137.739 161.674 137.597 154.402C137.525 150.727 141.525 150.727 141.525 150.727C141.525 150.727 148.025 150.649 151.167 150.649C154.31 150.727 155.238 155.106 155.381 156.2C156.595 166.053 162.166 170.353 166.452 172.308C169.023 173.481 168.38 177.156 163.024 177.312Z" fill="white"/>
                     <path d="M109.1 127.248C103.816 126.626 95.962 126.082 90.8924 124.839C82.6811 122.819 82.8953 115.438 83.2523 113.03C84.252 105.804 86.8939 99.1224 90.9638 92.9069C96.0334 85.2929 103.317 78.6112 112.67 73.1726C130.235 62.9947 154.798 57.323 181.788 57.323C201.567 57.323 222.202 59.8869 222.416 59.8869C224.273 60.12 225.63 61.907 225.558 63.927C225.487 65.9471 224.059 67.5009 222.202 67.6563C219.203 67.5786 216.276 67.5786 213.491 67.5786C186.001 67.5786 166.437 71.3079 151.87 79.3881C137.518 87.3129 127.522 99.4332 120.739 117.381C120.025 118.934 117.668 128.18 109.1 127.248Z" fill="white"/>
@@ -45,7 +51,7 @@
                     <path d="M43.75 116.947C38.0259 115.921 32.445 113.554 27.0071 112.213C10.1926 108.031 13.0546 91.0665 14.6287 86.4112C29.9407 41.3568 78.5238 26.2861 117.734 22.262C154.654 18.4746 193.292 21.394 229.282 31.4149C232.216 32.2039 241.303 34.4132 236.079 39.8576C232.788 43.2505 219.98 39.6998 216.546 39.4631C195.438 37.885 174.545 37.6483 153.509 40.8834C131.257 44.2763 108.361 51.2988 89.972 66.1328C81.0997 73.3131 73.3006 82.466 68.0774 93.2758C66.7179 96.1164 65.6447 98.957 64.7145 101.798C63.7843 104.796 60.2783 119.867 43.75 116.947Z" fill="white"/>
                     <path d="M137.892 125.638C141.043 111.538 155.044 89.1945 198.377 90.7355C208.318 91.0437 203.768 97.8239 198.867 97.6698C174.365 96.8223 162.744 112.617 156.654 128.643C154.694 133.805 150.213 134.576 144.613 133.651C140.693 132.958 136.422 132.496 137.892 125.638Z" fill="white"/>
                 </svg>                    
-                Mój profil Crowdin
+                <span data-i18n="crowdin-profile">Mój profil Crowdin</span>
             </a>
 
     </div>
@@ -53,5 +59,9 @@
     <footer>
         <p>&copy; COPYRIGHT 2025 TheBlunius</p>
     </footer>
-    
+
+    <script src="language-switcher.js" defer></script>
+
+</body>
+
 </html>

@@ -75,4 +75,36 @@ footer {
     width: 100%;
     text-align: center;
     color: #cdd6f4; /*Catpuccin Mocha: Text*/
+
 }
+
+.link-button {
+    min-width: 180px;
+    text-align: center;
+
+}
+#LanguageSwitcher {
+    appearance: none;
+    background-color: transparent;
+    color: #cdd6f4;
+    border: 1px solid #cdd6f4;
+    margin: 10px;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 50px;
+    transition-duration: 200ms;
+}
+
+#LanguageSwitcher:hover {
+    color: black;
+    background-color: #cdd6f4;
+    box-shadow: 0 0 10px #cdd6f4;
+}
+
+#LanguageSwitcher:focus {
+    color: black;
+    background-color: #cdd6f4;
+    box-shadow: 0 0 10px #cdd6f4;
+}
+
+
