@@ -1,5 +1,3 @@
-## Development Branch!
-
 # theblunius.github.io
 Repository with code of my website;) Simple as that
 
