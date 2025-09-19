@@ -1,12 +1,12 @@
 * {
     font-family: Arial;
 }
+
 body {
     background-color: #11111b; /*Catpuccin Mocha: Crust*/
     height: auto;
     width: auto;
 }
-
 
 .container {
     display : flex;
