@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #11111b; /*Catpuccin Mocha: Crust*/
+    background-color: #000A14;
     height: auto;
     width: auto;
 }
@@ -21,7 +21,7 @@ body {
 
 .avatar {
     border-radius: 75px;
-    box-shadow: 0 0 10px #74c7ec; /*Catpuccin Mocha: Sapphire*/
+    box-shadow: 0 0 25px rgba(18, 57, 122);
 }
 
 .crowdin-icon {
@@ -32,18 +32,18 @@ body {
 }
 
 .crowdin-icon path{
-    fill: #cdd6f4; /*Catpuccin Mocha: Text*/
+    fill: white
 }
 
 h2 {
-    color: #cdd6f4; /*Catpuccin Mocha: Text*/
+    color: white;
     font-size: 1.75rem;
 }
 
 a {
-    color: #cdd6f4; /*Catpuccin Mocha: Text*/
+    color: white;
     text-decoration: none;
-    border: 1px solid #cdd6f4; /*Catpuccin Mocha: Text*/
+    border: 2px solid #6A86B5;
     border-radius: 2px;
     border-radius: 50px;
     padding: 5px;
@@ -52,22 +52,25 @@ a {
 }
 
 a:hover {
-    color: black;
-    background-color: #cdd6f4; /*Catpuccin Mocha: Text*/
-    box-shadow: 0 0 10px #cdd6f4; /*Catpuccin Mocha: Text*/
+    color: white;
+    background-color: rgba(150, 188, 255, 0.5);
+    box-shadow: 0 0 10px rgba(18, 57, 122);
 }
 
 a:hover svg path {
-    fill: black;
+    fill: white;
 }
 
 i {
-    color: #cdd6f4; /*Catpuccin Mocha: Text*/
+    color: white
 }
 
 a:hover i {
-    color: black;
-    background-color: #cdd6f4; /*Catpuccin Mocha: Text*/
+    color: white;
+}
+
+a, i {
+    background: rgba(18, 57, 122, 0.4);
 }
 
 footer {
@@ -75,7 +78,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    color: #cdd6f4; /*Catpuccin Mocha: Text*/
+    color: white;
 
 }
 
@@ -86,9 +89,9 @@ footer {
 
 #LanguageSwitcher {
     appearance: none;
-    background-color: transparent;
-    color: #cdd6f4;
-    border: 1px solid #cdd6f4;
+    background: rgba(18, 57, 122, 0.4);
+    color: white;
+    border: 2px solid #6A86B5;
     margin: 10px;
     margin-left: 5px;
     padding: 10px;
@@ -97,15 +100,13 @@ footer {
 }
 
 #LanguageSwitcher:hover {
-    color: black;
-    background-color: #cdd6f4;
-    box-shadow: 0 0 10px #cdd6f4;
+    color: white;
+    background-color: rgba(150, 188, 255, 0.6);
+    box-shadow: 0 0 10px rgba(18, 57, 122);
 }
 
 #LanguageSwitcher:focus {
     color: black;
-    background-color: #cdd6f4;
-    box-shadow: 0 0 10px #cdd6f4;
+    background-color: rgba(150, 188, 255, 0.6);
+    box-shadow: 0 0 10px rgba(18, 57, 122);
 }
-
-
