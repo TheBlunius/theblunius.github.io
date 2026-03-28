@@ -1,3 +1,5 @@
+# ⚠️WARNING: Repository archived, moved to [codeberg](https://codeberg.org/TheBlunius/pages)
+
 # theblunius.github.io
 Repository with code of my website;) Simple as that
 
